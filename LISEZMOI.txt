@@ -1,0 +1,12 @@
+Ca$hfl00d - application de gestion financiere personnelle (Groupe 16)
+
+COMPILER ET LANCER
+1. Ouvrir Qt Creator (version du professeur : Qt 5.12.12).
+2. Fichier > Ouvrir un fichier ou un projet > Cashflood.pro
+3. Choisir le kit "Desktop Qt 5.12.12 MinGW", puis "Configurer le projet".
+4. Ctrl+B pour compiler, Ctrl+R pour lancer.
+La base de donnees est creee automatiquement au premier lancement.
+Aucun module Qt optionnel n'est requis (modules : core gui widgets sql).
+TESTS (facultatif, projet separe)
+Ouvrir tests/tests.pro dans Qt Creator, compiler, lancer :
+la console doit afficher "0 failed" pour chaque ensemble de tests.

@@ -5,7 +5,9 @@
 class FenetrePrincipale : public QMainWindow
 {
     Q_OBJECT
+
 public:
     explicit FenetrePrincipale(QWidget *parent = nullptr);
 };
+
 #endif // FENETRE_PRINCIPALE_H

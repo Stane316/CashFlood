@@ -1,0 +1,21 @@
+# Fichiers propres a chaque poste (chemins et kits de la machine)
+*.pro.user
+*.pro.user.*
+*.autosave
+.vscode/
+# Dossiers de compilation (Qt Creator cree build-<projet>-<kit>)
+build-*/
+build/
+debug/
+release/
+# Fichiers generes par qmake, moc, uic et rcc
+Makefile*
+.qmake.stash
+moc_*
+ui_*.h
+qrc_*.cpp
+*.o
+*.obj
+# Executables et bases locales
+*.exe
+*.db
